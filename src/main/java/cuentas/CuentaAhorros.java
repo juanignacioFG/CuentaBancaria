@@ -1,6 +1,6 @@
 package cuentas;
 
-class CuentaAhorros extends Cuenta {
+public class CuentaAhorros extends Cuenta {
     private boolean activa;
 
     public CuentaAhorros(float saldoInicial, float tasaAnual) {

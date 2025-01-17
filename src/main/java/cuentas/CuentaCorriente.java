@@ -1,6 +1,6 @@
 package cuentas;
 
-class CuentaCorriente extends Cuenta {
+public class CuentaCorriente extends Cuenta {
     float sobregiro;
 
     public CuentaCorriente(float saldoInicial, float tasaAnual) {

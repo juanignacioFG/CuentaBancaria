@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="481ea6bd-0396-404c-9bfe-fb4a2c22eedf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cuentas/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuentas/Cuenta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cuentas/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuentas/CuentaAhorros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cuentas/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuentas/CuentaCorriente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cuentas/CuentaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cuentas/CuentaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
@@ -51,6 +50,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
     "JUnit.CuentaTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -72,7 +73,20 @@
       <recent name="cuentas" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="CuentaBancaria" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CuentaBancaria" />
       <extension name="coverage">
@@ -90,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.CuentaTest" />
       </list>
     </recent_temporary>
@@ -104,16 +119,5 @@
       <updated>1737018330156</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
