@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="481ea6bd-0396-404c-9bfe-fb4a2c22eedf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cuentas/CuentaAhorros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuentas/CuentaAhorros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cuentas/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cuentas/CuentaCorriente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,8 @@
     "onboarding.tips.debug.path": "C:/Users/fas14/bootcampF5/java/CuentaBancaria/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -119,5 +118,10 @@
       <updated>1737018330156</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CuentaBancaria$CuentaTest.ic" NAME="CuentaTest Coverage Results" MODIFIED="1737112587393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>cuentas.*</FILTER>
+    </SUITE>
   </component>
 </project>

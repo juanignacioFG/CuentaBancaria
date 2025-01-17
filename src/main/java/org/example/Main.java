@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        CuentaAhorros cuentaAhorros = new CuentaAhorros(15000, 5);
+        CuentaAhorros cuentaAhorros = new CuentaAhorros(5000, 5);
         CuentaCorriente cuentaCorriente =  new CuentaCorriente(8000, 3);
 
         int opcion;
