@@ -1,0 +1,33 @@
+@startuml
+class Cuenta {
+    - saldo: float
+    - numeroConsignaciones: int
+    - numeroRetiros: int
+    - tasaAnual: float
+    - comisionMensual: float
+    + consignar(cantidad: float): void
+    + retirar(cantidad: float): void
+    + calcularInteresMensual(): void
+    + generarExtractoMensual(): void
+    + imprimir(): String
+}
+
+class CuentaAhorros extends Cuenta {
+    - activa: boolean
+    + consignar(cantidad: float): void
+    + retirar(cantidad: float): void
+    + generarExtractoMensual(): void
+    + imprimir(): String
+}
+
+class CuentaCorriente extends Cuenta {
+    - sobregiro: float
+    + retirar(cantidad: float): void
+    + consignar(cantidad: float): void
+    + generarExtractoMensual(): void
+    + imprimir(): String
+}
+
+CuentaAhorros --|> Cuenta
+CuentaCorriente --|> Cuenta
+@enduml
